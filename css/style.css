@@ -131,3 +131,27 @@ img {
     max-width: 90%;
   }
  }
+ @media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .row {
+        display: block;
+    }
+    .title {
+        text-align: center;
+    }
+    .steps .col {
+        width: calc(100% / 1);
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+        text-align: center;
+    }
+}
